@@ -2,49 +2,89 @@
 <html>
 
 <head>
-    <title>Mercato Brasiliano</title>
+    <title>Mercato Brasiliano - Shopping</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-dark-subtle">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
-    <div class="container">
-        <div class="border text-center">
-            <img src="logo.png" width="120" height="120">
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+        </script>
+    <div class="container-fluid bg-light">
+        <div class="border-fluid ">
+            <img src="logo.png" class="col-4 object-fit-contain" width="120" height="120">
         </div>
     </div>
-    <nav class="navbar bg-warning" data-bs-theme="dark">
-        <div class="container text-center">
+    <nav class="navbar bg-primary" data-bs-theme="dark">
+        <div class="container justify-content-center">
             <div class="row text-center">
                 <div class="col">
-                    <button type="button" href="index.html" class="btn btn-light">Home</button>
+                    <a type="button" href="index.html" class="btn btn-light">
+                        Home
+                    </a>
                 </div>
                 <div class="col">
-                    <button type="button" href="shop.html" class="btn btn-light">Loja
-                    </button>
+                    <a type="button" href="shop.html" class="btn btn-light">
+                        Loja
+                    </a>
                 </div>
                 <div class="col">
-                    <button type="button" href="location.hmtl" class="btn btn-light">Localização
-                    </button>
+                    <a type="button" href="location.html" class="btn btn-light">
+                        Localização
+                    </a>
                 </div>
                 <div class="col">
-                    <button type="button" href="contact.html" class="btn btn-light">
+                    <a type="button" href="contact.html" class="btn btn-light">
                         Contato
-                    </button>
+                    </a>
                 </div>
                 <div class="col">
-                    <button type="button" href="about.html" class="btn btn-light">
+                    <a type="button" href="about.html" class="btn btn-light">
                         Sobre
-                    </button>
+                    </a>
                 </div>
+                <a href="shop.html" class="col ps-5 ms-5">
+                    <img src="shopping-cart.png" width="40" height="40">
+                </a>
             </div>
         </div>
     </nav>
-    <div class="container">
+    <div class="container d-flex justify-content-center">
+        <div class="col-12 border rounded border-2 p-4 m-4 bg-light text-start">
+            <p>
+            Prezado cliente,
+            </p>
+            <p>
+            Agradecemos a sua preferência pelo Mercado Brasileiro. Esperamos que você tenha ficado satisfeito com os nossos produtos
+            e serviços.
+            <p>
+            Estamos sempre buscando melhorar a qualidade do nosso atendimento e oferecer a você uma experiência única de compra. Por
+            isso, gostaríamos de saber a sua opinião sobre o nosso mercado.
+            </p>
+            <p>
+            Se você tiver alguma dúvida, sugestão ou reclamação, por favor entre em contato conosco pelo e-mail
+            mercadobrasileiro@gmail.com. Teremos o maior prazer em atendê-lo e solucionar qualquer problema que possa ter ocorrido.
+            </p>
+            A sua satisfação é a nossa motivação. Conte conosco para continuar saboreando os produtos brasileiros na Itália.
+            <p>
+            Atenciosamente,
+            </p>
+            Equipe do Mercado Brasileiro
+            <div class="col-8 text-center m-auto mt-5 mb-3">
+            <form class="form-floating pb-2">
+                <input type="email" class="form-control" id="floatingInputValue" placeholder="name@example.com"
+                    value="seuemail@exemplo.com">
+                <label for="floatingInputValue">Insira seu e-mail aqui</label>
+            </form>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                    style="height: 20vh"></textarea>
+                <label for="floatingTextarea2">Escreva seu comentário aqui...</label>
+            </div>
+            </div>
+        </div>
 
     </div>
 </body>
